@@ -1,0 +1,39 @@
+/* Result.css */
+
+.result-container {
+    background-color: purple; /* Set background color to purple */
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Position the container relative to its normal position */
+  }
+  
+  .result-header {
+    position: absolute; /* Position the header absolutely */
+    top: 20px; /* Adjust the top position */
+    left: 50%; /* Align to the center horizontally */
+    transform: translateX(-50%); /* Center the header horizontally */
+    color: white; /* Set text color to white */
+  }
+  
+  .result-content {
+    background-color: white; /* Set background color of the content box to white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Center-align text */
+    width: 70%; /* Adjust the width */
+    max-width: 600px; /* Set max-width to prevent it from stretching too wide */
+  }
+  
+  .score {
+    font-size: 2rem; /* Set font size to big */
+    color: navy; /* Set color to navy blue */
+  }
+  
+  .result-info {
+    margin-top: 20px; /* Add margin to separate from score */
+  }
+  
